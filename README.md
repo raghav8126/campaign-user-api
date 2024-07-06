@@ -12,7 +12,7 @@ This is a simple Ruby on Rails application for managing users. It allows you to 
 
 - Ruby (version 2.7.2 or later)
 - Rails (version 6.0 or later)
-- MySQL (or another preferred database)
+- MySQL
 
 ## Setup Instructions
 
