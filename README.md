@@ -21,3 +21,23 @@ This is a simple Ruby on Rails application for managing users. It allows you to 
 ```sh
 git clone https://github.com/raghav8126/campaign-user-api
 cd users-management-app
+
+### 2. Install Dependencies
+
+```sh
+bundle install
+
+### 3. Configure the Database
+
+- Open config/database.yml and modify the development and test sections with your MySQL username and password.
+- Create the database and run the migrations:
+
+```sh
+rails db:create
+rails db:migrate
+
+### 4. Start the Rails Server
+
+```sh
+rails server
+
