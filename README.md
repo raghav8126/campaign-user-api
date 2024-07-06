@@ -1,24 +1,23 @@
-# README
+# Users Management Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple Ruby on Rails application for managing users. It allows you to add new users, list all users, and filter users by campaign names.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- Add new users with name, email, and campaigns list (in JSON format).
+- List all users in a table with options to delete users.
+- Filter users by campaign names.
 
-* System dependencies
+## Prerequisites
 
-* Configuration
+- Ruby (version 2.7.2 or later)
+- Rails (version 6.0 or later)
+- MySQL (or another preferred database)
 
-* Database creation
+## Setup Instructions
 
-* Database initialization
+### 1. Clone the Repository
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```sh
+git clone https://github.com/raghav8126/campaign-user-api
+cd users-management-app
